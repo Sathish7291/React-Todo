@@ -1,0 +1,97 @@
+.title {
+  text-align: center;
+  margin: 5rem;
+  font-size: 2rem;
+  color: #13ad89;
+}
+
+.todo-form {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-input {
+  width: 35%;
+  font-size: 1rem;
+  border: 2px solid #13ad89;
+  border-radius: 11px;
+  padding: 0.8rem 1.2rem;
+  outline: none;
+}
+
+.btn {
+  border: none;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #13ad89;
+  border-radius: 9px;
+}
+
+
+.todo-header {
+  margin: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-title-text {
+  font-size: 1.5rem;
+}
+
+#todo-filter {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-right: 0.4rem;
+}
+
+.todo-select  {
+  background-color: #ed8c88;
+  color: #fff;
+ 
+}
+
+.todo-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem; 
+  row-gap: 2rem;
+}
+
+.todo-card {
+  color :#13ad89;
+  background-color: #ccf5d3;
+}
+
+
+.todo-select-card {
+  font-size: 1rem;
+  padding: 0.8rem 1.2rem;
+   text-align: center;
+  color: #fff;
+  border-radius: 9px;
+  background-color: #13ad89;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.todo-name,
+.todo-desc,
+.todo-status{
+  padding: 0.5rem 1.2rem;
+}
+
+.completed{
+  background-color: #13ad89;
+}
+.notcompleted{
+  background-color: #ed8c88;
+}
